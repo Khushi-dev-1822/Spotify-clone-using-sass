@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/icon-font.css" />
+</head>
+
+<body>
+    <div class="navigation">
+        <ul class="navigation__ul">
+            <li class="navigation__li navigation__li--brand">
+                <img src="assets/logo.png" alt="spotify" class="img" />
+                <span>Spotify</span>
+            </li>
+            <li class="navigation__li">Home</li>
+            <li class="navigation__li">About</li>
+        </ul>
+    </div>
+
+    <section class="section-container">
+        <div class="songList">
+            <h1 class="heading-primary">Best of NCS - No Copyright Sounds</h1>
+            <div class="u-margin-top">
+                <div class="songList__item">
+                    <img src="assets/covers/10.jpg" class="songList__item--img" alt="1" />
+                    <span class="songName">Let me love you</span>
+                    <span class="songList__item--display">
+                        <span class="songList__item--timeStamp">05:35 <i id="0"
+                                class="far songItemPlay fa-play-circle pointer"></i></span></span>
+                </div>
+                <div class="songList__item">
+                    <img src="assets/covers/10.jpg" class="songList__item--img" alt="1" />
+                    <span class="songName">Let me love you</span>
+                    <span class="songList__item--display">
+                        <span class="songList__item--timeStamp">05:35 <i id="1"
+                                class="far songItemPlay fa-play-circle pointer"></i></span></span>
+                </div>
+                <div class="songList__item">
+                    <img src="assets/covers/10.jpg" class="songList__item--img" alt="1" />
+                    <span class="songName">Let me love you</span>
+                    <span class="songList__item--display">
+                        <span class="songList__item--timeStamp">05:35 <i id="2"
+                                class="far songItemPlay fa-play-circle pointer"></i></span></span>
+                </div>
+                <div class="songList__item">
+                    <img src="assets/covers/10.jpg" class="songList__item--img" alt="1" />
+                    <span class="songName">Let me love you</span>
+                    <span class="songList__item--display">
+                        <span class="songList__item--timeStamp">05:35 <i id="3"
+                                class="far songItemPlay fa-play-circle pointer"></i></span></span>
+                </div>
+                <div class="songList__item">
+                    <img src="assets/covers/10.jpg" class="songList__item--img" alt="1" />
+                    <span class="songName">Let me love you</span>
+                    <span class="songList__item--display">
+                        <span class="songList__item--timeStamp">05:35 <i id="4"
+                                class="far songItemPlay fa-play-circle pointer"></i></span></span>
+                </div>
+                <div class="songList__item">
+                    <img src="assets/covers/10.jpg" class="songList__item--img" alt="1" />
+                    <span class="songName">Let me love you</span>
+                    <span class="songList__item--display">
+                        <span class="songList__item--timeStamp">05:35 <i id="5"
+                                class="far songItemPlay fa-play-circle pointer"></i></span></span>
+                </div>
+                <div class="songList__item">
+                    <img src="assets/covers/10.jpg" class="songList__item--img" alt="1" />
+                    <span class="songName">Let me love you</span>
+                    <span class="songList__item--display">
+                        <span class="songList__item--timeStamp">05:35 <i id="6"
+                                class="far songItemPlay fa-play-circle pointer"></i></span></span>
+                </div>
+                <div class="songList__item">
+                    <img src="assets/covers/10.jpg" class="songList__item--img" alt="1" />
+                    <span class="songName">Let me love you</span>
+                    <span class="songList__item--display">
+                        <span class="songList__item--timeStamp">05:35 <i id="7"
+                                class="far songItemPlay fa-play-circle pointer"></i></span></span>
+                </div>
+                <div class="songList__item">
+                    <img src="assets/covers/10.jpg" class="songList__item--img" alt="1" />
+                    <span class="songName">Let me love you</span>
+                    <span class="songList__item--display">
+                        <span class="songList__item--timeStamp">05:35 <i id="8"
+                                class="far songItemPlay fa-play-circle pointer"></i></span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="songBanner"></div>
+    </section>
+
+    <section class="bottom">
+        <input type="range" name="range" class="pointer" id="myProgressBar" value="0" min="0" max="100" />
+        <div class="bottom__icons">
+            <i class="fas fa-3x fa-step-backward pointer" id="previous"></i>
+            <i class="far fa-3x fa-play-circle pointer" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward pointer" id="next"></i>
+        </div>
+        <div class="bottom__songInfo">
+            <img src="assets/playing.gif" class="gif" alt="gif" width="42px" /> Let
+            <span id="masterSongName">me love you - Justin Beiber</span>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
